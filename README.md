@@ -3,4 +3,4 @@
 ## Themes
 
 - astra
--astra child (planty-theme) 
+- astra child (planty-theme) 
