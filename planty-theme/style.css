@@ -1,0 +1,472 @@
+/*
+Theme Name:   Planty Theme ( astra ) hello toutes
+Description:  Planty Theme
+Author:       John Doe
+Template:     astra
+Version:      1.0.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
+
+/*  navBar  */
+.commander {
+	background-color: #dc9f96;
+}
+
+#menu-item-31 a {
+	color: white;
+}
+
+.ast-container,
+.ast-container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.custom-logo {
+	max-width: 201px;
+}
+
+/*  home  */
+
+.ast-plain-container.ast-no-sidebar #primary {
+	background-color: #e3d9d0;
+}
+
+.energie-bg {
+	position: absolute;
+	z-index: 0;
+	background-image: url("http://planty-bintou.local/wp-content/uploads/2023/12/IMG_7671.png") !important;
+}
+
+.entry-content .wp-block-heading {
+	position: relative;
+	
+	
+}
+
+p {
+	position: relative;
+}
+
+.home-paragraph {
+    background-image: url("http://planty-bintou.local/wp-content/uploads/2023/12/IMG_7671.png") !important;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+	width:100%;
+
+}
+
+
+.energie{
+  top:160px;
+   
+}
+
+
+.titre-pink {
+	color: #d2776a !important;
+}
+
+.gallery-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	max-width: 715px !important;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+	bottom: unset;
+	background: none;
+	font-size: 48px;
+	line-height: 57px;
+	overflow: unset;
+	text-shadow: 1px 1px 2px #80808075;
+}
+
+.command-btn a {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.gallery-wrapper figure {
+	max-width: 45% !important;
+	min-width: 250px;
+}
+
+.entry-content .wp-block-heading {
+	margin-top: 1em;
+	max-width: 750px;
+	font-weight: bold;
+}
+
+.site-main[haspost-27] {
+	background-color: #3b8e46 !important;
+	margin-top:-33px;
+}
+
+.entry-content .wp-block-heading {
+    max-width: 1060px;
+    font-weight: 800 !important;
+	line-height: 1;
+	
+}
+
+.fond-image{
+	position: absolute;
+    top: 2000px;
+    z-index: 0;
+    height: 530px;
+	max-width: 100%;
+}
+
+.wp-block-columns {
+	z-index: 1;
+    position: relative;
+	top: 50px;
+}
+
+.wp-block-heading {
+	margin-top: 123px;
+    position: relative;
+    z-index: 1;
+}
+.cannette-home{
+	position: relative;
+	z-index: 1;
+	top: 15px;
+	background-color: white;
+}
+.cannette{
+	position: relative;
+	z-index: 1;
+	top: 16px;
+	
+}
+
+.pense{
+	top: 190px;
+	z-index: 1;
+}
+/*****energie****/
+.energie.wp-block-heading{
+	width: 1090px;
+
+}
+
+/* footer  */
+.footer {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+.footer a {
+	color: inherit;
+	position: relative;
+}
+
+.entry-content .wp-block-heading {
+	max-width: 860px;
+}
+
+/*  formumaire commander   */
+.command-title {
+	max-width: 680px;
+	text-align: center;
+	font-family: Syne;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.is-style-wide {
+	max-width: 860px !important;
+}
+form {
+	background: #3b8e46;
+	padding: 1em;
+}
+
+.form-first-part {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 860px;
+	margin: auto;
+}
+
+.command-number {
+	width: 39px !important;
+	border-radius: 0 !important;
+	margin: 15px auto;
+	display: block;
+}
+
+.form-first-part_container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-first-part_container img {
+	max-width: 192px;
+}
+
+.form-first-part_container h4 {
+	position: absolute;
+	color: white;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 800;
+	top: 21%;
+	text-shadow: 1px 1px 1px #494848d4;
+}
+
+.form-container {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	align-items: center;
+	max-width: 860px;
+	margin: auto;
+}
+
+.form-container h3 {
+	color: white;
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.form-container hr {
+	width: 1px;
+	background: white;
+	height: 340px;
+	margin: 0;
+}
+
+form input[type="text"],
+form input[type="email"] {
+	border-radius: 7px;
+	background: #fff;
+	box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+form input[type="submit"] {
+	margin: auto;
+	display: block;
+	min-width: 128px;
+	margin-bottom: 1em;
+}
+
+/*  formulaire nous contacter   */
+
+#wpcf7-f90-p10-o1 .wpcf7-form {
+	max-width: 383px;
+	margin: auto;
+	background-color: transparent;
+	position: relative;
+	z-index: 1;
+}
+
+#wpcf7-f90-p10-o1 .wpcf7-form h3 {
+	color: black;
+	text-align: center;
+}
+
+#wpcf7-f90-p10-o1 .wpcf7-form input[type="text"],
+#wpcf7-f90-p10-o1 .wpcf7-form input[type="email"],
+#wpcf7-f90-p10-o1 .wpcf7-form textarea {
+	border: none;
+}
+
+.entry-content .recontrer-title {
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 800;
+}
+#wpcf7-f90-p10-o1 label {
+	color: black;
+}
+
+/*  PAGE NOUS RECONTRER  */
+.entry-content .nous_recointre_paragpah {
+	max-width: 690px;
+	font-size: 20px;
+}
+
+.entry-content .equipe-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("http://planty-bintou.local/wp-content/uploads/2023/11/Rectangle-6.png")!important;
+	background-position: top;
+	background-size: cover;
+	min-height: 504px;
+	position: relative;
+	max-width: 100%;
+}
+
+.equipe-container .wp-block-media-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align:end;
+}
+
+.equipe-container .wp-block-columns {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.equipe-container .planty-plant {
+	position: absolute;
+	bottom: 0;
+	right: 3%;
+	max-width: 14%;
+}
+
+.wp-block-image.fleur{
+	position: absolute;
+    top: 160px;
+	margin-left: 180px;
+
+}
+.equipe{
+	padding-top: 99px;
+}
+
+.wp-block-heading {
+	margin-top: 150px;
+	
+}
+
+.fleurs-sous-formulaire{
+	z-index: 0;
+	position: absolute;
+	margin-top: -240px;
+	padding-left: 401px;
+}
+
+
+/*****home modification*****/
+.wp-block-media-text__media img, .wp-block-media-text__media video {
+    max-width: 211px;
+    margin: auto;
+    display: block;
+}
+
+
+.photo3-home{
+	background-image: url("http://planty-bintou.local/wp-content/uploads/2023/12/Rectangle-7.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	height: 380px;
+	
+	z-index: 0;
+}
+
+.fatiha{
+ padding-top: 100px;
+}
+.vero{
+	padding-top: 50px;
+}
+.marc{
+	padding-top: 100px;
+}
+
+b, strong{
+	font-weight: 700;
+	font-size: 50px;
+}
+
+
+
+@media only screen and (max-width: 782px) {
+	.form-container {
+		flex-direction: column;
+	}
+	.form-container hr {
+		display: none;
+	}
+
+	.energie{
+		display: flex ;
+		text-align: center;
+		padding-left: 150px;
+		}
+		
+
+		.photo3-home{
+			background-color: white;
+			padding: 1em 2em !important;
+		}
+
+		
+		.fleurs-sous-formulaire{
+			display: none;
+		}
+
+		.wp-block-image.fleur{
+			position: absolute;
+            top: 111px;
+	        margin-left: 180px;
+		}
+		
+		.votre-co{
+			padding-left: 118px;
+		}
+
+
+		.cannette-home{
+			display: none;
+		}
+      .cannette{
+		top: 0px;
+	  }
+
+	  .#menu-item-31 {
+		order: 2;
+	}
+
+	.commander menu-item menu-item-type-post_type menu-item-object-page .menu-item-31{
+		order: 3;
+	}
+
+}
+
+@media only screen and (max-width: 950px) {
+	.equipe-container .planty-plant {
+		display: none;
+	}
+
+	.fleurs-sous-formulaire{
+  
+		z-index: 0;
+		position: absolute;
+		margin-top: -240px;
+		padding-left: 105px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.ast-plain-container.ast-no-sidebar #primary {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+/*admin css*/
+
+#menu-item-31 {
+	order: 2;
+}
