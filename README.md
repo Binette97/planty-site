@@ -8,4 +8,4 @@
 
 ## Fichier sql integrée
 
-fichier sql 
+fichier sql pour les donnes du site
