@@ -40,9 +40,7 @@ Version:      1.0.0
 }
 
 .entry-content .wp-block-heading {
-	position: relative;
-	
-	
+	position: relative;	
 }
 
 p {
@@ -51,16 +49,16 @@ p {
 
 .home-paragraph {
     background-image: url("http://planty-bintou.local/wp-content/uploads/2023/12/IMG_7671.png") !important;
-    height: 400px;
+    height: 340px;
     background-repeat: no-repeat;
     background-position: center;
-	width:100%;
+	
 
 }
 
 
 .energie{
-  top:160px;
+  top:130px;
    
 }
 
@@ -357,6 +355,19 @@ form input[type="submit"] {
 }
 
 
+.entry-content .wp-block-media-text .wp-block-media-text__content {
+    padding: 0px 0 0;
+}
+
+.megane{
+padding-right: 10px;
+}
+.brooke{
+	padding-right: 40px;
+}
+
+
+
 /*****home modification*****/
 .wp-block-media-text__media img, .wp-block-media-text__media video {
     max-width: 211px;
@@ -370,7 +381,6 @@ form input[type="submit"] {
     background-size: 100%;
     background-repeat: no-repeat;
 	height: 380px;
-	
 	z-index: 0;
 }
 
@@ -420,6 +430,7 @@ b, strong{
 			position: absolute;
             top: 111px;
 	        margin-left: 180px;
+			display: none;
 		}
 		
 		.votre-co{
@@ -434,14 +445,16 @@ b, strong{
 		top: 0px;
 	  }
 
-	  .#menu-item-31 {
+	  #menu-item-31{
 		order: 2;
 	}
 
 	.commander menu-item menu-item-type-post_type menu-item-object-page .menu-item-31{
 		order: 3;
 	}
-
+    .footer a{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 950px) {
