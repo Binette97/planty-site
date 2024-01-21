@@ -436,6 +436,21 @@ b, strong{
 		.votre-co{
 			padding-left: 118px;
 		}
+          .pamplemouse{
+			font-size: 46px;
+			top: px;
+		  }
+
+
+		  wp-element-caption figcaption{
+			font-size: 45px !important;
+		  }
+
+		  strong {
+			font-weight: 700;
+			font-size: 46px;
+		}
+
 
 
 		.cannette-home{
